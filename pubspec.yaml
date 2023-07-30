@@ -1,0 +1,52 @@
+name: TaskTrek
+description: TaskTrek is a cross-platform task management application developed 
+              using Flutter and integrated with Firebase as the backend. 
+              The app aims to help users organize their tasks based on importance 
+              and planned deadlines, and it allows categorization into completed and 
+              uncompleted tasks. Users are required to log in to access their individual accounts,
+              enabling them to access their tasks from any platform (Android, iOS, and web).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.6.1
+  fluttertoast: ^8.1.1
+  google_sign_in: ^6.1.1
+  flutter_inset_box_shadow: ^1.0.8
+  lottie: ^2.3.2
+  cloud_firestore: ^4.7.1
+  google_fonts: ^5.1.0
+  curved_navigation_bar: ^1.0.3
+  collection: ^1.17.1
+  slide_to_act: ^2.0.1
+  flutter_phoenix: ^1.1.1
+  file_picker: ^5.3.2
+  firebase_storage: ^11.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  
+  uses-material-design: true
+
+  
+  assets:
+  - images/
+  - animations/
+ 
